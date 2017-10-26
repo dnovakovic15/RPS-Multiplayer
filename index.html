@@ -17,31 +17,30 @@
 
         <!-- Added a link to Bootstrap-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+        <!-- Import Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
     </head>
 
     <body>
         <div class="page">
           <div class="container content">
               <div class="row">
-                <div class="col title">JavaScript Interview Trivia!</div>
+                <div class="col title">Rock! Paper! Scissors!</div>
               </div>
               <div class="row">
-                <div class="col time">Time Remaining: 60 Seconds</div>
+                <div class="col wins">Wins: 0</div>
               </div>
               <div class="row">
-                <div class="col question">What is the Difference Between == and === in JavaScript?</div>
+                <div class="col losses">Losses: 0</div>
               </div>
               <div class="row">
-                <button class="col answer 0">Nothing!</button>
+                <div class="col outcome"></div>
               </div>
               <div class="row">
-                <button class="col answer 1">== assigns a value to a varaible while === checks equality</button>
+                <button class="col play">Find Opponent</button>
               </div>
-              <div class="row">
-                <button class="col answer 2">== is type independant === is type dependant</button>
-              </div>
-              <div class="row">
-                <button class="col answer 3">What is JavaScript?</button>
+              <div class="row rps">
               </div>
           </div>  
         </div>

@@ -1,77 +1,53 @@
 body, html {
     height: 100%;
+    background-color: rgb(144, 201, 191) !important;
 }
 
 .page { 
-    background-image: url("../images/background.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5% 0%;
 }
 
 .content{
-    background-color: yellow;
-    padding: 5% 0%;
+    height: 768px;
 }
 
 .title{
-    color: red;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 48px;
     text-align: center;
     font-weight: bold;
 }
 
-.time{
-    color: black;
+.outcome{
+    color: darkred;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 36px;
     text-align: center;
     font-weight: bold;
-    margin-top: 2%;
 }
 
-.question{
-    color: black;
+.rock, .paper, .scissors, .opponent{
+    height: 346px;
+    width: 208px;
+    margin-top: 20%;
+    cursor: pointer;
+}
+
+.wins, .losses{
+    text-align: right;
+    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    font-size: 19px;
 }
 
-.answer{
-    color: black;
+.play{
+    color: gray;
+    background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
-    text-align: center;
-    margin-top: 3%;
-    font-weight: bold;
-    background-color: transparent;
-}
-
-.advance, .reset{
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
-    text-align: center;
-    margin-top: 3%;
-    font-weight: bold;
-    background-color: gray;
-    width: 100%;
-}
-
-button{
-    background:none!important;
-     color:inherit;
-     border:none; 
-     padding:0!important;
-     font: inherit;
-     cursor: pointer;
-}
-
-button:hover{
-    border:2px gray solid;
+    margin: 5% 10%;
 }
